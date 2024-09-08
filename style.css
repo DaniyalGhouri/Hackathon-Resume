@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c28383;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f96363;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #040a49;
+    background: #79033a;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #9c6060;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    margin: 0;
+}
+
+a {
+    color: #5b0350;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+#toggle-skills {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #e46363;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#toggle-skills:hover {
+    background-color: #ffffff;
+}
